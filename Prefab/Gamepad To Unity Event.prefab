@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3221300479840256232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4572723882059930382}
+  - component: {fileID: 4055350631455982537}
+  m_Layer: 0
+  m_Name: Gamepad To Unity Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4572723882059930382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3221300479840256232}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4055350631455982537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3221300479840256232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e7859181f1d3d46b0a822afd5c404c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gamepadEvent:
+    m_pad:
+      m_up:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_right:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_down:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_left:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+    m_button:
+      m_up:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_right:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_down:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+      m_left:
+        m_value: 0
+        m_onPress:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onRelease:
+          m_PersistentCalls:
+            m_Calls: []
+    m_shoulderLeft:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_shoulderRight:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_menuLeft:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_menuRight:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_thumbLeft:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_thumbRight:
+      m_value: 0
+      m_onPress:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onRelease:
+        m_PersistentCalls:
+          m_Calls: []
+    m_triggerLeft:
+      m_percentValue01: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_triggerRight:
+      m_percentValue01: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_joystickLeftHorizontal:
+      m_percentValue11: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_joystickLeftVertical:
+      m_percentValue11: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_joystickrightHorizontal:
+      m_percentValue11: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_joystickrightVertical:
+      m_percentValue11: 0
+      m_onValueChanged:
+        m_PersistentCalls:
+          m_Calls: []
