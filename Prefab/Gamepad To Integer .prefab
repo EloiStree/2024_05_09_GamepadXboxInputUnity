@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5948109372383653963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2124097170321238055}
+  - component: {fileID: 6053192743711402841}
+  m_Layer: 0
+  m_Name: 'Gamepad To Integer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2124097170321238055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948109372383653963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6053192743711402841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948109372383653963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed347fa14112cea48bfa252824910205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gamepadOffset: 1300450000
+  m_toListen: {fileID: 0}
+  m_onIntegerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_lastPushed: 0
+  m_buttonLeft:
+    m_offset: 1600451000
+    m_integerPress: 1003
+    m_integerRelease: 2003
+  m_buttonRight:
+    m_offset: 1600451000
+    m_integerPress: 1002
+    m_integerRelease: 2002
+  m_buttonUp:
+    m_offset: 1600451000
+    m_integerPress: 1004
+    m_integerRelease: 2004
+  m_buttonDown:
+    m_offset: 1600451000
+    m_integerPress: 1001
+    m_integerRelease: 2001
+  m_padLeft:
+    m_offset: 1600451000
+    m_integerPress: 1007
+    m_integerRelease: 2005
+  m_padRight:
+    m_offset: 1600451000
+    m_integerPress: 1006
+    m_integerRelease: 2005
+  m_padUp:
+    m_offset: 1600451000
+    m_integerPress: 1008
+    m_integerRelease: 2005
+  m_padDown:
+    m_offset: 1600451000
+    m_integerPress: 1005
+    m_integerRelease: 2005
+  m_thumbLeft:
+    m_offset: 1600451000
+    m_integerPress: 1009
+    m_integerRelease: 2009
+  m_thumbRight:
+    m_offset: 1600451000
+    m_integerPress: 1010
+    m_integerRelease: 2010
+  m_shoulderLeft:
+    m_offset: 1600451000
+    m_integerPress: 1011
+    m_integerRelease: 2011
+  m_shoulderRight:
+    m_offset: 1600451000
+    m_integerPress: 1012
+    m_integerRelease: 2012
+  m_menuLeft:
+    m_offset: 1600451000
+    m_integerPress: 1013
+    m_integerRelease: 2013
+  m_menuRight:
+    m_offset: 1600451000
+    m_integerPress: 1014
+    m_integerRelease: 2014
+  m_axisRelativeOffset:
+    m_joystickLeftHorizontal: 3100
+    m_joystickLeftVertical: 3200
+    m_joystickRightHorizontal: 3300
+    m_joystickRightVertical: 3400
+    m_triggerLeft: 2020
+    m_triggerRight: 2040
+  m_joystickLeftHorizontal:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 3100
+      m_min: -1
+      m_max: -0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3101
+      m_min: -0.9
+      m_max: -0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3102
+      m_min: -0.75
+      m_max: -0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3103
+      m_min: -0.5
+      m_max: -0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3104
+      m_min: -0.25
+      m_max: -0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3105
+      m_min: -0.1
+      m_max: 0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3106
+      m_min: 0.1
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3107
+      m_min: 0.25
+      m_max: 0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3108
+      m_min: 0.5
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3109
+      m_min: 0.75
+      m_max: 0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3110
+      m_min: 0.9
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
+  m_joystickLeftVertical:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 3200
+      m_min: -1
+      m_max: -0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3201
+      m_min: -0.9
+      m_max: -0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3202
+      m_min: -0.75
+      m_max: -0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3203
+      m_min: -0.5
+      m_max: -0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3204
+      m_min: -0.25
+      m_max: -0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3205
+      m_min: -0.1
+      m_max: 0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3206
+      m_min: 0.1
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3207
+      m_min: 0.25
+      m_max: 0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3208
+      m_min: 0.5
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3209
+      m_min: 0.75
+      m_max: 0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3210
+      m_min: 0.9
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
+  m_joystickRightHorizontal:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 3300
+      m_min: -1
+      m_max: -0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3301
+      m_min: -0.9
+      m_max: -0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3302
+      m_min: -0.75
+      m_max: -0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3303
+      m_min: -0.5
+      m_max: -0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3304
+      m_min: -0.25
+      m_max: -0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3305
+      m_min: -0.1
+      m_max: 0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3306
+      m_min: 0.1
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3307
+      m_min: 0.25
+      m_max: 0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3308
+      m_min: 0.5
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3309
+      m_min: 0.75
+      m_max: 0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3310
+      m_min: 0.9
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
+  m_joystickRightVertical:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 3400
+      m_min: -1
+      m_max: -0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3401
+      m_min: -0.9
+      m_max: -0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3402
+      m_min: -0.75
+      m_max: -0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3403
+      m_min: -0.5
+      m_max: -0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3404
+      m_min: -0.25
+      m_max: -0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3405
+      m_min: -0.1
+      m_max: 0.1
+    - m_offset: 1600451000
+      m_relativeValue: 3406
+      m_min: 0.1
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 3407
+      m_min: 0.25
+      m_max: 0.5
+    - m_offset: 1600451000
+      m_relativeValue: 3408
+      m_min: 0.5
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 3409
+      m_min: 0.75
+      m_max: 0.9
+    - m_offset: 1600451000
+      m_relativeValue: 3410
+      m_min: 0.9
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
+  m_triggerLeft:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 2020
+      m_min: 0
+      m_max: 0.01
+    - m_offset: 1600451000
+      m_relativeValue: 2021
+      m_min: 0.01
+      m_max: 0.15
+    - m_offset: 1600451000
+      m_relativeValue: 2022
+      m_min: 0.15
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 2023
+      m_min: 0.25
+      m_max: 0.35
+    - m_offset: 1600451000
+      m_relativeValue: 2024
+      m_min: 0.35
+      m_max: 0.45
+    - m_offset: 1600451000
+      m_relativeValue: 2025
+      m_min: 0.45
+      m_max: 0.55
+    - m_offset: 1600451000
+      m_relativeValue: 2026
+      m_min: 0.55
+      m_max: 0.65
+    - m_offset: 1600451000
+      m_relativeValue: 2027
+      m_min: 0.65
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 2028
+      m_min: 0.75
+      m_max: 0.85
+    - m_offset: 1600451000
+      m_relativeValue: 2029
+      m_min: 0.95
+      m_max: 0.99
+    - m_offset: 1600451000
+      m_relativeValue: 2030
+      m_min: 0.99
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
+  m_triggerRight:
+    m_notFoundValue: 0
+    m_rangeToInteger:
+    - m_offset: 1600451000
+      m_relativeValue: 2041
+      m_min: 0
+      m_max: 0.01
+    - m_offset: 1600451000
+      m_relativeValue: 2042
+      m_min: 0.01
+      m_max: 0.15
+    - m_offset: 1600451000
+      m_relativeValue: 2043
+      m_min: 0.15
+      m_max: 0.25
+    - m_offset: 1600451000
+      m_relativeValue: 2044
+      m_min: 0.25
+      m_max: 0.35
+    - m_offset: 1600451000
+      m_relativeValue: 2045
+      m_min: 0.35
+      m_max: 0.45
+    - m_offset: 1600451000
+      m_relativeValue: 2046
+      m_min: 0.45
+      m_max: 0.55
+    - m_offset: 1600451000
+      m_relativeValue: 2047
+      m_min: 0.55
+      m_max: 0.65
+    - m_offset: 1600451000
+      m_relativeValue: 2048
+      m_min: 0.65
+      m_max: 0.75
+    - m_offset: 1600451000
+      m_relativeValue: 2049
+      m_min: 0.75
+      m_max: 0.85
+    - m_offset: 1600451000
+      m_relativeValue: 2050
+      m_min: 0.95
+      m_max: 0.99
+    - m_offset: 1600451000
+      m_relativeValue: 2051
+      m_min: 0.99
+      m_max: 1
+    m_previousValueAxisValueChanged: 0
+    m_previousValueAxisValued: 0
