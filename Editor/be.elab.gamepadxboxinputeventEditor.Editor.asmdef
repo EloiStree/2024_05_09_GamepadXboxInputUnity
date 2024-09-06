@@ -1,7 +1,7 @@
 
 {                                                                   
-            "name": "be.eloistree.gamepadxboxinputeventEditor",          
-    "references": ["be.eloistree.gamepadxboxinputevent"
+            "name": "be.elab.gamepadxboxinputeventEditor",          
+    "references": ["be.elab.gamepadxboxinputevent"
 ],                                                              
     "optionalUnityReferences": [],                                  
     "includePlatforms": [                                           

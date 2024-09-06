@@ -1,5 +1,5 @@
 {
-    "name": "be.eloistree.gamepadxboxinputevent",
+    "name": "be.elab.gamepadxboxinputevent",
     "rootNamespace": "",
     "references": [
         "Unity.InputSystem"
